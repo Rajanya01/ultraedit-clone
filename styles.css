@@ -362,3 +362,15 @@ body {}
     bottom: 17px;
     position: relative;
 }
+
+@media (max-width: 768px) {
+    .box {
+        width: 100%;
+        height: auto;
+    }
+    .parent {
+        width: 100%;
+        grid-template-columns: 1fr;
+    }
+}
+
