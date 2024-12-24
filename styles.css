@@ -7,8 +7,11 @@
     padding: 22px 70px;
     display: flex;
 }
+a{
+    text-decoration: none;
+    color: #fff;
+}
 
-body {}
 
 .parent {
     height: 200vh;
@@ -362,3 +365,4 @@ body {}
     bottom: 17px;
     position: relative;
 }
+
